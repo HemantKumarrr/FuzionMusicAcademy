@@ -1,0 +1,47 @@
+/* ImageCarousel.css */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Add fading effect on the sides */
+.carousel::before,
+.carousel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%; /* Adjust width for fading effect coverage */
+  z-index: 1; /* Ensure overlay is above the images */
+}
+
+.carousel::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.carousel::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 1),
+    rgba(248, 125, 125, 0)
+  );
+}
+
+.carousel-track {
+  display: flex;
+  width: fit-content;
+}
+
+.carousel-image {
+  width: 100vw;
+  flex: 0 0 auto;
+}
