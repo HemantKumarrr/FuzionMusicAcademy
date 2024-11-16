@@ -12,7 +12,7 @@ const CoursesPage = () => {
           <p></p>
         </div>
         <div className="w-full flex items-center justify-center">
-          <div className="card-container px-4 md:px-14 flex items-center justify-start gap-10 flex-wrap py-8">
+          <div className="card-container px-4 md:px-14 flex items-center justify-center md:justify-start gap-10 flex-wrap py-8">
             {courseItem.map((item) => {
               return (
                 <CourseCard
