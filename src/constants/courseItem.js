@@ -31,13 +31,19 @@ export const courseItem = [
   },
   {
     id: 6,
+    image: "/images/Courses/musicTheory.jpg",
+    title: "Music Theory",
+    desc: "Music theory is the foundation of any musical education, and covers concepts such as rhythm, time signatures, and notation.",
+  },
+  {
+    id: 7,
     image: "/images/AllSlideImages/pianoplayer.jpg",
     title: "Piano Classes",
     desc: "Piano lessons/ keyboard lessons for beginners. Play piano by ear, chords, reading music, improvisation, music theory",
   },
 
   {
-    id: 7,
+    id: 8,
     image: "/images/Courses/vocalTraining.jpg",
     title: "Vocal training",
     desc: "Find your unique voice naturally, while having FUN doing it! A modern approach to singing lessons & vocal training.",

@@ -73,10 +73,10 @@ const Contact = () => {
               </a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13998.223994286673!2d77.4252854!3d28.7029255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1a863e40c5b%3A0x8de40464638ebe8e!2sFuzion%20Music%20Academy!5e0!3m2!1sen!2sin!4v1731697864311!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13998.223994286673!2d77.4252854!3d28.7029255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1a863e40c5b%3A0x8de40464638ebe8e!2sFuzion%20Music%20Academy!5e0!3m2!1sen!2sin!4v1731766609995!5m2!1sen!2sin"
               width="600"
               height="450"
-              className="w-[18rem] md:w-[30rem] h-[18rem] md:h-[30rem]"
+              className="w-[20rem] md:w-[30rem] h-[18rem] md:h-[30rem]"
               style={{
                 marginRight: 0 + "em",
 
