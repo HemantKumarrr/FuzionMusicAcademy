@@ -1,11 +1,11 @@
-import "./App.css";
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Loader from "./components/Loader/Loader";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const NavBar = lazy(() => import("./components/Nav/NavBar"));
 const Footer = lazy(() => import("./components/Footer/Footer"));
 const CoursesPage = lazy(() => import("./Pages/Courses/CoursesPage"));
-import Loader from "./components/Loader/Loader";
 
 const App = () => {
   return (

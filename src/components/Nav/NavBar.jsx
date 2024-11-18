@@ -107,7 +107,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className="absolute right-[2rem] bottom-[-45rem] animate-bounce md:hidden">
+      <div className="absolute right-[2rem] top-[34rem] animate-bounce md:hidden">
         <Bar />
       </div>
     </div>

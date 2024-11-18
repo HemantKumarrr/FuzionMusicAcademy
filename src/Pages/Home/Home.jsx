@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className="gradBg scroll-smooth h-full px-[2rem] md:px-[10rem]">
-      <div className="w-full h-full">
+      <div className="Landing-section w-full h-full">
         <div className="w-full h-[calc(100vh-102px)] md:h-[calc(100vh-52px)] gap-10 flex flex-col items-center justify-center">
           <h1 className="text-6xl text-start md:text-center font-funnelDisplay tracking-wider uppercase font-semibold text-white">
             Fuzion Music Academy
