@@ -100,14 +100,17 @@ const NavBar = () => {
             </ul>
           </div>
           <div>
-            <button className="bg-green-600 flex items-center justify-center gap-2 hover:bg-green-500 px-4 md:px-2 py-1 rounded-sm font-semibold ">
+            <Link
+              to="https://wa.me/message/LZIPHDYS54GHC1"
+              className="bg-green-600 flex items-center justify-center gap-2 hover:bg-green-500 px-4 md:px-2 py-1 rounded-sm font-semibold "
+            >
               <p>Connect</p>
               <FaWhatsapp className="text-xl" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
-      <div className="absolute right-[2rem] top-[34rem] animate-bounce md:hidden">
+      <div className="absolute right-[2rem] top-[35rem] animate-bounce md:hidden">
         <Bar />
       </div>
     </div>

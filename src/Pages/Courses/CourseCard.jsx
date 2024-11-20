@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CourseCard = ({ image, title, desc }) => {
   return (
     <div className="card cursor-pointer transition-all ease-in hover:shadow-lg hover:scale-[1.050] w-[20rem] h-full md:h-[24rem] rounded-lg bg-blue-900/30 border border-gray-600">
@@ -18,9 +20,11 @@ const CourseCard = ({ image, title, desc }) => {
         </div>
 
         <div className="">
-          <button className="bg-blue-800 hover:bg-blue-700 w-full py-2 text-xl hover:shadow-md rounded-md">
-            Get Details
-          </button>
+          <Link to="https://wa.me/message/LZIPHDYS54GHC1">
+            <button className="bg-blue-800 hover:bg-blue-700 w-full py-2 text-xl hover:shadow-md rounded-md">
+              Get Details
+            </button>
+          </Link>
         </div>
       </div>
     </div>

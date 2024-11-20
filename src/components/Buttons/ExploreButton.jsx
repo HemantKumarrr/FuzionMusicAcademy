@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 const ExploreButton = () => {
   const navigate = useNavigate();
   return (
-    /* From Uiverse.io by nathAd17 */
     <button
       onClick={() => navigate("/courses")}
       type="submit"
